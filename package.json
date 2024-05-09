@@ -67,7 +67,8 @@
     "test:unit_": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:unit": "yarn node --require=dotenv/config --experimental-vm-modules --experimental-specifier-resolution=node $(yarn bin jest) --config ./jest.config.json",
     "test:watch": "react-scripts test --env=jsdom",
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build_": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "echo \"Warning: no build specified\"",
     "prepare": "run-s build",
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
