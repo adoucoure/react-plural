@@ -101,7 +101,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "semantic-release": "^23.0.8",
+    "semantic-release": "^22",
     "size-limit": "^4.10.2"
   }
 }
