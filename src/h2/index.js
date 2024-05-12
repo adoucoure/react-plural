@@ -3,7 +3,7 @@ import React from 'react'
 export default (props) => {
   const { children, } = props
 
-  return <p {...props}>
+  return <h2 {...props}>
     {children}
-  </p>
+  </h2>
 }
