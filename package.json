@@ -73,8 +73,20 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
+  "dependencies": {
+    "react-native-raw-bottom-sheet": "^2.2.0",
+    "react-fade-in": "^2.0.1"
+  },
   "peerDependencies": {
-    "react": ">= 0.16.0 < 18.0.0"
+    "react": ">= 0.16.0 < 18.0.0",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/lab": "^5.0.0-alpha.97",
+    "@mui/material": "^5.10.3",
+    "@mui/styles": "^5.10.3",
+    "@mui/x-data-grid": "^5.17.0",
+    "@mui/x-data-grid-generator": "^5.17.0",
+    "@mui/x-date-pickers": "^5.0.0",
+    "next-use-contextual-routing": "^2"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.10.2",

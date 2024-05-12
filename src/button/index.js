@@ -1,9 +1,8 @@
-'use client'
-import React from 'react'
 
 export default (props) => {
   const { children, } = props
-  if (!process.env.BROWSER) {
+  const isServer = (typeof window === 'undefined') //&& !process.browser
+  if (isServer) {
     return null
   }
 
