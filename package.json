@@ -1,7 +1,6 @@
 {
   "name": "@adoucoure/react-plural",
   "main": "src/index.js",
-  "module": "src/index.js",
   "source": "src/index.js",
   "version": "0.0.0-development",
   "description": "React Plural",
